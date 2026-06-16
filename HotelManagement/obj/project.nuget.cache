@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/aFoML1Zh/o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\HotelManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TG\\.nuget\\packages\\materialdesigncolors\\5.3.2\\materialdesigncolors.5.3.2.nupkg.sha512",
+    "C:\\Users\\TG\\.nuget\\packages\\materialdesignthemes\\5.3.2\\materialdesignthemes.5.3.2.nupkg.sha512",
+    "C:\\Users\\TG\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
+  "logs": []
+}
