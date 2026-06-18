@@ -7,17 +7,20 @@ C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\bin\Debug\net8.0-wi
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.csproj.AssemblyReference.cache
+C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\Dashboard.g.cs
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement_Content.g.cs
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement_MarkupCompile.cache
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement_MarkupCompile.lref
+C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\Dashboard.baml
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.g.resources
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.AssemblyInfoInputs.cache
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.AssemblyInfo.cs
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.csproj.CoreCompileInputs.cache
+C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.sourcelink.json
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelMan.EA22BE7D.Up2Date
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.dll
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\refint\HotelManagement.dll
@@ -25,3 +28,5 @@ C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-wi
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\HotelManagement.genruntimeconfig.cache
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\ref\HotelManagement.dll
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\App.baml
+C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\All_User_Control\UC_AddRoom.g.cs
+C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\obj\Debug\net8.0-windows\All_User_Control\UC_AddRoom.baml

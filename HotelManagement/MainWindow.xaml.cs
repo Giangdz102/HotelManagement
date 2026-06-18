@@ -20,5 +20,22 @@ namespace HotelManagement
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            if(txtUsername.Text == "admin" && txtPassword.Password == "123")
+            {
+                labelError.Visibility = Visibility.Hidden;
+                Dashboard dashboard = new Dashboard();
+                this.Hide();
+                dashboard.Show();
+
+            }
+            else
+            {
+                labelError.Visibility = Visibility.Visible;
+                txtPassword.Clear();
+            }
+        }
     }
 }
