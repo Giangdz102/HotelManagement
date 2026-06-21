@@ -19,9 +19,17 @@ namespace HotelManagement
     /// </summary>
     public partial class Dashboard : Window
     {
+
         public Dashboard()
         {
             InitializeComponent();
         }
+
+        private void btnAddRoom_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        
     }
 }
