@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\App.xaml
-6-1275750076
+71891616214
 22142178043
-181547306646
+191920261542
 237758172450
-AdminWindow.xaml;BookingManagement.xaml;CustomerDashboard.xaml;CustomerManagement.xaml;MainWindow.xaml;RoomManagement.xaml;
+AdminWindow.xaml;BookingManagement.xaml;CustomerDashboard.xaml;CustomerManagement.xaml;MainWindow.xaml;ReportWindow.xaml;RoomManagement.xaml;
 
 False
 

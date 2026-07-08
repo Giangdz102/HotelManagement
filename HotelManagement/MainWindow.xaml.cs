@@ -41,8 +41,8 @@ namespace HotelManagement
                     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                     .Build();
 
-                string adminEmail = "admin@FUMiniHotelSystem.com";
-                string adminPassword = "@@abc123@@";
+                string adminEmail = config["AdminAccount:Email"];
+                string adminPassword = config["AdminAccount:Password"];
 
                 if (email == adminEmail && password == adminPassword)
                 {
