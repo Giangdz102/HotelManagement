@@ -1,0 +1,110 @@
+﻿<Window x:Class="HotelManagement.CustomerManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+        Title="CustomerManagement" Height="600" Width="1010"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#F5F5F5" Padding="15" CornerRadius="5" Margin="0,0,0,15">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <TextBlock Text="Tìm kiếm:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+                    <TextBox x:Name="TxtSearch" Width="280" Height="30" VerticalContentAlignment="Center" 
+                     Tag="Nhập tên hoặc email khách hàng..." Background="#DDDDDD" />
+                    <Button Content="Tìm kiếm" Width="90" Height="30" Margin="10,0,0,0" 
+                    Background="#2196F3" Foreground="White" BorderBrush="{x:Null}" Click="Button_Click" />
+                    <Button Content="Làm mới" Width="92" Height="30" Margin="5,0,0,0" 
+                    Background="#757575" Foreground="White" BorderBrush="{x:Null}" Click="Button_Click_1" />
+                </StackPanel>
+
+                <Button Content="+ Thêm Khách Hàng" HorizontalAlignment="Left" Width="172" Height="30" 
+                Background="#4CAF50" Foreground="White" BorderBrush="{x:Null}" FontWeight="Bold" Margin="780,0,0,0" />
+            </Grid>
+        </Border>
+        <Grid Margin="0,0,0,239" Grid.Row="1" Background="LightBlue" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0"
+       Grid.Column="0"
+       Content="ID"
+       VerticalAlignment="Center"/>
+
+            <TextBox Grid.Row="0"
+         Grid.Column="1"
+         Height="30" Background="White" DataContext="{Binding ElementName=LvCustomers, Path=SelectedItem}" Text="{Binding Path=CustomerId, Mode=OneWay}" IsReadOnly="True" />
+
+            <Label Grid.Row="1"
+       Grid.Column="0"
+       Content="Họ và tên"
+       VerticalAlignment="Top" />
+
+            <TextBox Grid.Row="1"
+         Grid.Column="1"
+         Height="30" Background="White" DataContext="{Binding ElementName=LvCustomers, Path=SelectedItem}" Text="{Binding Path=CustomerFullName, Mode=OneWay}" x:Name="txtCustomerName"/>
+
+            <Label Grid.Row="2"
+               Grid.Column="0"
+               Content="Số điện thoại"
+               VerticalAlignment="Top" />
+            <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 Height="30" Background="White" DataContext="{Binding ElementName=LvCustomers, Path=SelectedItem}" Text="{Binding Path=Telephone, Mode=OneWay}" x:Name="txtTelephone"/>
+
+            <Label Grid.Row="3"
+   Grid.Column="0"
+   Content="Email"
+   VerticalAlignment="Top" />
+            <TextBox Grid.Row="3"
+     Grid.Column="1"
+     Height="30" Background="White" DataContext="{Binding ElementName=LvCustomers, Path=SelectedItem}" Text="{Binding Path=EmailAddress, Mode=OneWay}" x:Name="txtEmail"/>
+
+            <Label Grid.Row="4"
+   Grid.Column="0"
+   Content="Ngày sinh"
+   VerticalAlignment="Top" />
+            <TextBox Grid.Row="4"
+     Grid.Column="1"
+     Height="30" Background="White" DataContext="{Binding ElementName=LvCustomers, Path=SelectedItem}" Text="{Binding Path=CustomerBirthday, Mode=OneWay}" x:Name="txtBirthday"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1">
+                <Button Content="Insert" x:Name="btnInsert" Background="#DDDDDD" Click="btnInsert_Click"/>
+                <Button x:Name="btnUpdate" Margin="30,0" Content="Update" Background="#DDDDDD" Click="btnUpdate_Click"/>
+                <Button Content="Delete" x:Name="btnDelete" Background="#DDDDDD" Click="btnDelete_Click"/>
+            </StackPanel>
+        </Grid>
+        <ListView x:Name="LvCustomers" Grid.Row="2" SelectionMode="Single" Background="White" BorderBrush="#E0E0E0">
+            <ListView.View>
+                <GridView>
+
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding CustomerId}" Width="100"/>
+                    <GridViewColumn Header="Họ và Tên" DisplayMemberBinding="{Binding CustomerFullName}" Width="220"/>
+                    <GridViewColumn Header="Số Điện Thoại" DisplayMemberBinding="{Binding Telephone}" Width="250"/>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding EmailAddress}" Width="250"/>
+                    <GridViewColumn Header="Ngày Sinh" DisplayMemberBinding="{Binding CustomerBirthday}" Width="200"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -14,17 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HotelManagement\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\MainWindow.xaml",
+              "RelativeToolTip": "HotelManagement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-08T14:28:18.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AssemblyInfo.cs",
+              "RelativeToolTip": "HotelManagement\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:26:40.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\appsettings.json",
               "RelativeDocumentMoniker": "HotelManagement\\appsettings.json",
               "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\appsettings.json",
               "RelativeToolTip": "HotelManagement\\appsettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-08T14:20:25.411Z",
               "EditorCaption": ""

@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using HotelManagement.Models;
+using HotelManagement.ViewModels;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,22 +24,54 @@ namespace HotelManagement
         {
             InitializeComponent();
         }
-
+        CustomersManagement CM = new CustomersManagement();
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if(txtUsername.Text == "admin" && txtPassword.Password == "123")
+            string email = txtUsername.Text.Trim();
+            string password = txtPassword.Password.Trim();
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                labelError.Visibility = Visibility.Hidden;
-                Dashboard dashboard = new Dashboard();
-                this.Hide();
-                dashboard.Show();
+                MessageBox.Show("Vui lòng nhập đầy đủ Email và Mật khẩu!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            try
+            {
+                IConfiguration config = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                    .Build();
 
+                string adminEmail = config["AdminAccount:Email"];
+                string adminPassword = config["AdminAccount:Password"];
+
+                if (email == adminEmail && password == adminPassword)
+                {
+                    labelError.Visibility = Visibility.Hidden;
+                    AdminWindow adminWindow = new AdminWindow();
+                    this.Close();
+                    adminWindow.Show();
+                    return;
+                }
+
+                Customer loggedInCustomer = CM.GetCustomerByEmailAndPassword(email, password);
+                if (loggedInCustomer != null)
+                {
+                    CustomerDashboard customerDashboard = new CustomerDashboard(loggedInCustomer);
+                    this.Close();
+                    customerDashboard.Show();
+                }
+                else
+                {
+                    labelError.Visibility = Visibility.Visible;
+                    txtPassword.Clear();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                labelError.Visibility = Visibility.Visible;
-                txtPassword.Clear();
+                MessageBox.Show($"Lỗi hệ thống khi đăng nhập: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+
+
         }
     }
 }
