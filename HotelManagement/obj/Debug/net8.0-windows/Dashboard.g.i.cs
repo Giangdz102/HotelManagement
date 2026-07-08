@@ -97,7 +97,7 @@ namespace HotelManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HotelManagement;component/dashboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HotelManagement;V1.0.0.0;component/dashboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Dashboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
