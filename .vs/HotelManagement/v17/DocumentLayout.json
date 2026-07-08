@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\customerdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\customerdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\customerdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\customerdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A51DE11F-262D-42A5-889D-B3FC85EE2103}|HotelManagement\\HotelManagement.csproj|c:\\users\\tg\\documents\\prn212\\hotelmanagement\\hotelmanagement\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,6 +59,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomerDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\CustomerDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerDashboard.xaml.cs",
+              "RelativeToolTip": "HotelManagement\\CustomerDashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:42:22.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerDashboard.xaml",
+              "RelativeDocumentMoniker": "HotelManagement\\CustomerDashboard.xaml",
+              "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerDashboard.xaml",
+              "RelativeToolTip": "HotelManagement\\CustomerDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-08T14:41:27.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AdminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AdminWindow.xaml.cs",
               "RelativeDocumentMoniker": "HotelManagement\\AdminWindow.xaml.cs",
@@ -63,15 +96,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AdminWindow.xaml",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AdminWindow.xaml",
               "RelativeDocumentMoniker": "HotelManagement\\AdminWindow.xaml",
               "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AdminWindow.xaml",
               "RelativeToolTip": "HotelManagement\\AdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-08T14:38:03.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T14:38:03.377Z"
             },
             {
               "$type": "Document",
@@ -81,14 +113,14 @@
               "RelativeDocumentMoniker": "HotelManagement\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\MainWindow.xaml.cs",
               "RelativeToolTip": "HotelManagement\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowEsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAADwv0sAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-08T14:36:47.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CustomerManagement.xaml.cs",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerManagement.xaml.cs",
               "RelativeDocumentMoniker": "HotelManagement\\CustomerManagement.xaml.cs",
@@ -96,24 +128,22 @@
               "RelativeToolTip": "HotelManagement\\CustomerManagement.xaml.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T14:35:23.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T14:35:23.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CustomerManagement.xaml",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerManagement.xaml",
               "RelativeDocumentMoniker": "HotelManagement\\CustomerManagement.xaml",
               "ToolTip": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\CustomerManagement.xaml",
               "RelativeToolTip": "HotelManagement\\CustomerManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-08T14:34:30.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T14:34:30.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CustomersManagement.cs",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\ViewModels\\CustomersManagement.cs",
               "RelativeDocumentMoniker": "HotelManagement\\ViewModels\\CustomersManagement.cs",
@@ -121,8 +151,7 @@
               "RelativeToolTip": "HotelManagement\\ViewModels\\CustomersManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T14:33:43.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T14:33:43.351Z"
             },
             {
               "$type": "Document",
@@ -138,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "HotelManagement\\AssemblyInfo.cs",
@@ -146,12 +175,11 @@
               "RelativeToolTip": "HotelManagement\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T14:26:40.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T14:26:40.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\TG\\Documents\\PRN212\\HotelManagement\\HotelManagement\\appsettings.json",
               "RelativeDocumentMoniker": "HotelManagement\\appsettings.json",
