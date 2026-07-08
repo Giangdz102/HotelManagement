@@ -1,0 +1,45 @@
+﻿<Window x:Class="HotelManagement.BookingManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+           Title="Booking Management" Height="600" Width="900" WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Danh sách Đơn đặt phòng (Booking Reservations)" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+
+        <ListView x:Name="LvBookings" Grid.Row="1" SelectionChanged="LvBookings_SelectionChanged" Background="White" BorderBrush="#E0E0E0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Booking ID" DisplayMemberBinding="{Binding BookingReservationId}" Width="130"/>
+                    <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustomerId}" Width="140"/>
+                    <GridViewColumn Header="Booking Date" DisplayMemberBinding="{Binding BookingDate}" Width="150"/>
+                    <GridViewColumn Header="Total Price" DisplayMemberBinding="{Binding TotalPrice}" Width="150"/>
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding BookingStatus}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <TextBlock Grid.Row="2" Text="Chi tiết Đơn đặt phòng (Booking Details)" FontWeight="Bold" FontSize="16" Margin="0,15,0,10"/>
+
+        <ListView x:Name="LvBookingDetails" Grid.Row="3" Background="White" BorderBrush="#E0E0E0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Booking ID" DisplayMemberBinding="{Binding BookingReservationId}" Width="130"/>
+                    <GridViewColumn Header="Room ID" DisplayMemberBinding="{Binding RoomId}" Width="130"/>
+                    <GridViewColumn Header="Start Date" DisplayMemberBinding="{Binding StartDate}" Width="150"/>
+                    <GridViewColumn Header="End Date" DisplayMemberBinding="{Binding EndDate}" Width="150"/>
+                    <GridViewColumn Header="Actual Price" DisplayMemberBinding="{Binding ActualPrice}" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
