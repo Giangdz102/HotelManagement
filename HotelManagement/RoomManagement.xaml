@@ -1,0 +1,73 @@
+﻿<Window x:Class="HotelManagement.RoomManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+            Title="Room Management" Height="600" Width="1010" WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#F5F5F5" Padding="15" CornerRadius="5" Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Tìm kiếm:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+                <TextBox x:Name="TxtSearch" Width="280" Height="30" VerticalContentAlignment="Center" Background="#DDDDDD" />
+                <Button Content="Tìm kiếm" Width="90" Height="30" Margin="10,0,0,0" Background="#2196F3" Foreground="White" Click="BtnSearch_Click" />
+            </StackPanel>
+        </Border>
+
+        <Grid Margin="0,0,0,239" Grid.Row="1" Background="LightBlue" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Content="Số Phòng (Room Number)" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="0" Grid.Column="1" Height="30" Text="{Binding SelectedItem.RoomNumber, ElementName=LvRooms}" x:Name="txtRoomNumber"/>
+
+            <Label Grid.Row="1" Content="Mô tả chi tiết" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Height="30" Text="{Binding SelectedItem.RoomDetailDescription, ElementName=LvRooms}" x:Name="txtDescription"/>
+
+            <Label Grid.Row="2" Content="Số người tối đa" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Height="30" Text="{Binding SelectedItem.RoomMaxCapacity, ElementName=LvRooms}" x:Name="txtCapacity"/>
+
+            <Label Grid.Row="3" Content="Loại phòng (ID)" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="3" Grid.Column="1" Height="30" Text="{Binding SelectedItem.RoomTypeId, ElementName=LvRooms}" x:Name="txtTypeId"/>
+
+            <Label Grid.Row="4" Content="Giá theo ngày" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="4" Grid.Column="1" Height="30" Text="{Binding SelectedItem.RoomPricePerDay, ElementName=LvRooms}" x:Name="txtPrice"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1">
+                <Button Content="Thêm mới" x:Name="btnInsert" Background="#DDDDDD" Click="BtnInsert_Click"/>
+                <Button Margin="30,0" Content="Cập nhật" x:Name="btnUpdate" Background="#DDDDDD" Click="BtnUpdate_Click"/>
+                <Button Content="Xoá" x:Name="btnDelete" Background="#DDDDDD" Click="BtnDelete_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <ListView x:Name="LvRooms" Grid.Row="2" SelectionMode="Single" Background="White" BorderBrush="#E0E0E0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding RoomId}" Width="50"/>
+                    <GridViewColumn Header="Số Phòng" DisplayMemberBinding="{Binding RoomNumber}" Width="100"/>
+                    <GridViewColumn Header="Mô tả" DisplayMemberBinding="{Binding RoomDetailDescription}" Width="250"/>
+                    <GridViewColumn Header="Số lượng Max" DisplayMemberBinding="{Binding RoomMaxCapacity}" Width="100"/>
+                    <GridViewColumn Header="Giá theo ngày" DisplayMemberBinding="{Binding RoomPricePerDay}" Width="150"/>
+                    <GridViewColumn Header="Trạng thái" DisplayMemberBinding="{Binding RoomStatus}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

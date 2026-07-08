@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\TG\Documents\PRN212\HotelManagement\HotelManagement\App.xaml
-4-1470898932
+41846966398
 22142178043
-8-1751962983
+14-1197476127
 237758172450
-All_User_Control\UC_AddRoom.xaml;All_User_Control\UC_CustomerRes.xaml;Dashboard.xaml;MainWindow.xaml;
+AdminWindow.xaml;CustomerDashboard.xaml;CustomerManagement.xaml;MainWindow.xaml;
 
-False
+True
 
